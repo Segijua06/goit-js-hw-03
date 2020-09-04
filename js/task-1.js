@@ -27,10 +27,23 @@ const user = {
 
 //Write code under this line  
 
+// user.hobby = skydiving;
+// user.premium = false;
+// user.mood = happy;
+// user."full time" = true
+// for (const key in user) {
+//     console.log('Key: ', key);
+// }
+
 
 const keys = Object.keys(user);
 // Write code under this line
+for (const key of keys) {
+    console.log(key);
 
+    user.hobby = skydiving;
+    return user;
+}
 console.log(message);
 /*
 'age : 20
