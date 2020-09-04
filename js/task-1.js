@@ -25,6 +25,9 @@ const user = {
     premium: true,
 };
 
+// Тут написав якийсь код
+// орпгпрпор 
+
 //Write code under this line  
 
 // user.hobby = skydiving;
