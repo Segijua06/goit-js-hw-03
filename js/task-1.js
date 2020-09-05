@@ -27,23 +27,15 @@ const user = {
 
 
 //Write code under this line  
-
-// user.hobby = skydiving;
-// user.premium = false;
-// user.mood = happy;
-// user."full time" = true
-// for (const key in user) {
-//     console.log('Key: ', key);
-// }
-
+user.mood = 'happy';
+user['full time'] = true;
+user.hobby = 'skydiving';
+user.premium = false;
 
 const keys = Object.keys(user);
 // Write code under this line
 for (const key of keys) {
-    console.log(key);
-
-    user.hobby = skydiving;
-    return user;
+    message += `${key} : ${user[key]}\n`;
 }
 console.log(message);
 /*

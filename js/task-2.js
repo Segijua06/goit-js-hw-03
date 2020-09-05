@@ -1,6 +1,18 @@
-const houses = ['Arryn', 'Frey', 'Greyjoy', 'Stark', 'Lannister', 'Tyrell'];
-const copyOfHouses = [...houses];
+// Задача 3 - 2
+// Подсчет количества свойств в объекте
+// Напиши функцию countProps(obj), которая возвращает число - количество свойств в объекте.
 
-console.log(houses); // ['Arryn','Frey','Greyjoy','Stark','Lannister','Tyrell']
-console.log(copyOfHouses); // ['Arryn','Frey','Greyjoy','Stark','Lannister','Tyrell']
-console.log(houses === copyOfHouses); // false - разные ссылки
+// Циклы не должны использоваться
+
+
+const countProps = function (obj) {
+    'use strict';
+    // Write code under this line
+    return Object.keys(obj).length;
+};
+
+console.log(countProps({})); // 0
+
+console.log(countProps({ a: 1, b: 1 })); // 2
+
+console.log(countProps({ a: 1, b: 1, c: 1, d: 1, e: 1 })); // 5
