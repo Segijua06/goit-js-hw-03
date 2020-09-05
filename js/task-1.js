@@ -25,9 +25,6 @@ const user = {
     premium: true,
 };
 
-// Тут написав якийсь код
-// орпгпрпор 
-// Ще щось 
 
 //Write code under this line  
 
